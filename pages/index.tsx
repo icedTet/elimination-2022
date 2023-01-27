@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full h-full px-5 overflow-auto brick">
       <main className="pt-24 text-center">
-        <div className={`w-fit mx-auto mb-6 flex flex-col gap-4`}>
+        <div className={`w-fit mx-auto mb-6 flex flex-col gap-4 max-w-prose`}>
           <ErrorAlert message="This Gunn Elimination website is NOT the correct website for Gunn Elimination 2023. This website is for archival purposes until further notice. If you're looking for the 2023 website, click the button below!" />
           <a
             href="https://elimination.gunn.one/"
